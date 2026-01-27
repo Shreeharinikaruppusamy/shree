@@ -1,0 +1,111 @@
+Here’s a complete, runnable example of a simple HTML webpage with CSS styling.
+It includes a header, navigation menu, content section, and footer — all styled with CSS.
+
+HTML + CSS Code
+Save this as index.html and open it in your browser.
+Html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background: #4CAF50;
+            border-radius: 4px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Sample Webpage</h1>
+        <p>A simple HTML and CSS example</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a basic example of a webpage created using HTML for structure and CSS for styling. You can use this as a starting point for your own projects.</p>
+
+        <h3>Features:</h3>
+        <ul>
+            <li>Responsive layout</li>
+            <li>Navigation menu</li>
+            <li>Clean and simple design</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Sample Website</p>
+    </footer>
+
+</body>
+</html>
